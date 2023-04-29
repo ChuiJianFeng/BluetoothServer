@@ -1,10 +1,10 @@
-!! This project is forked by URL: https://github.com/android/connectivity-samples.
+
 Android BluetoothServer
 ===================================
 
 Introduction
 ------------
-
+!! This project is forked by URL: https://github.com/android/connectivity-samples.
 This BluetoothServer should be run on Android devices and connect the client which is created by python(no provied code), to establish a two-way transport data over
 Bluetooth between the devices. Select "Made discoverable" in overflow menu on one device and click
 on the Bluetooth icon on the other one, to find the device and establish the connection.
@@ -27,5 +27,3 @@ Pre-requisites
 
 Screenshots
 -------------
-<img src="screenshots/1-launch.png" height="400" alt="Screenshot"/> <img src="screenshots/2-devices.png" height="400" alt="Screenshot"/> <img src="screenshots/3-chat.png" height="400" alt="Screenshot"/> 
-
