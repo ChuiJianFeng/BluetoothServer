@@ -1,59 +1,31 @@
-
-Android BluetoothChat Sample
+!! This project is forked by URL: https://github.com/android/connectivity-samples.
+Android BluetoothServer
 ===================================
-
-This sample shows how to implement two-way text chat over Bluetooth between two Android devices, using
-all the fundamental Bluetooth API capabilities.
 
 Introduction
 ------------
 
-This sample should be run on two Android devices at the same time, to establish a two-way chat over
+This BluetoothServer should be run on Android devices and connect the client which is created by python(no provied code), to establish a two-way transport data over
 Bluetooth between the devices. Select "Made discoverable" in overflow menu on one device and click
 on the Bluetooth icon on the other one, to find the device and establish the connection.
 
 The sample demonstrates the following, using the [Bluetooth API][1]:
 
-1. [Setting up][2] Bluetooth
-2. [Scanning][3] for other Bluetooth devices
-3. [Querying][4] the local Bluetooth adapter for paired Bluetooth devices
-4. [Establishing RFCOMM][5] channels/sockets
+1. [Setting up] Bluetooth
+2. [Querying] the local Bluetooth adapter for paired Bluetooth devices
+3. Open discoverable button. 
+4. [Establishing RFCOMM] channels/sockets co
 5. [Connecting][6] to a remote device
 6. [Transfering][7] data over Bluetooth
-
-[1]: http://developer.android.com/guide/topics/connectivity/bluetooth.html
-[2]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#Permissions
-[3]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#FindingDevices
-[4]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#QueryingPairedDevices
-[5]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#ConnectingDevices
-[6]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#ConnectingAsAClient
-[7]: http://developer.android.com/guide/topics/connectivity/bluetooth.html#ManagingAConnection
 
 Pre-requisites
 --------------
 
-- Android SDK 28
+- Android SDK 21
 - Android Build Tools v28.0.3
 - Android Support Repository
 
 Screenshots
 -------------
-
 <img src="screenshots/1-launch.png" height="400" alt="Screenshot"/> <img src="screenshots/2-devices.png" height="400" alt="Screenshot"/> <img src="screenshots/3-chat.png" height="400" alt="Screenshot"/> 
 
-Getting Started
----------------
-
-This sample uses the Gradle build system. To build this project, use the
-"gradlew build" command or use "Import Project" in Android Studio.
-
-Support
--------
-
-- Stack Overflow: http://stackoverflow.com/questions/tagged/android
-
-If you've found an error in this sample, please file an issue:
-https://github.com/android/connectivity
-
-Patches are encouraged, and may be submitted by forking this project and
-submitting a pull request through GitHub. Please see CONTRIBUTING.md for more details.
