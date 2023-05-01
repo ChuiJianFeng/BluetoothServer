@@ -1,5 +1,5 @@
 
-Android BluetoothServer
+(Vital Sign)BluetoothServer app 
 ===================================
 
 Introduction
